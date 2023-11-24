@@ -1,0 +1,38 @@
+body{
+    background: rgb(0,4,36);
+    background: linear-gradient(180deg, rgba(0,4,36,0.4586466165413534) 0%, rgba(73,9,121,1) 35%, rgba(145,0,255,1) 100%); 
+    background-repeat: no-repeat;
+    min-width: 1000px;
+    min-height: 1000px;
+}
+
+.container{
+    display: flex;
+    border:  2px solid rgb(244, 232, 0);
+    width: 600px;
+    margin: 200px auto 15px auto;
+
+}
+.item{
+    width:200px;
+    height: 200px;
+    border: 2px solid rgb(244, 232, 0);
+    outline: auto;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+}
+
+.start{
+    display: flex;
+    font-size: 50px;
+    margin: 0 auto;
+    background: rgb(36,0,0);
+background: linear-gradient(180deg, rgba(102, 8, 8, 0.459) 0%, rgba(121,9,9,1) 35%, rgba(255,0,0,1) 100%);
+color: aliceblue;
+width: 150px;
+height: 150px;
+border-radius: 100%;
+align-items: center;
+
+}
